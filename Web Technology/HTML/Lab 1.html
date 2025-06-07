@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Study</title>
+    <style>
+      h1{
+        text-align: center;
+      }
+        table{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+  <h1>HTML Table with Attributes</h1>
+    <table align="Center" border="2px" cellspacing="0">
+        <caption>Time Schedule</caption>
+        <tr>
+            <th>Period</th>
+            <th>6-7</th>
+            <th>7-8</th>
+            <th rowspan="6">break</th>
+            <th>8:30-9:30</th>
+            <th>9:30-10:30</th>
+        </tr>
+        <tr>
+            <td>1st</td>
+            <td>WT</td>
+            <td>CR</td>
+            <td>SAD</td>
+            <td>SM</td>
+        </tr>
+        <tr>
+            <td>2nd</td>
+            <td>MUL</td>
+            <td>SM</td>
+            <td colspan="2" align="Center">Presentation</td>
+        </tr>
+        <tr>
+            <td>3rd</td>
+            <td rowspan="3">WT</td>
+            <td>SAD</td>
+            <td colspan="2" rowspan="2" align="Center">Seminar</td>
+        </tr>
+        <tr>
+            <td>4th</td>
+            <td>SAD</td>
+        </tr>
+        <tr>
+            <td>5th</td>
+            <td>SAD</td>
+            <td colspan="2" align="Center">Presentation</td>
+        </tr>
+    </table>
+</body>
+</html>

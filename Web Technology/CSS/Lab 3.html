@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Floating Layout</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      width: 100%;
+      /* max-width: 600px; */
+      margin: 0 auto;
+      border: 1px solid #000;
+    }
+
+    .box {
+      height: 80px;
+      border: 1px solid #000;
+      float: left;
+    }
+
+    .full { width: 100%; }
+    .half { width: 50%; }
+    .third { width: 33.33%; }
+    .quarter { width: 25%; }
+    .fifth { width: 20%; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+      <div class="box full"></div>
+
+      <div class="box half"></div>
+      <div class="box half"></div>
+
+      <div class="box third"></div>
+      <div class="box third"></div>
+      <div class="box third"></div>
+
+      <div class="box quarter"></div>
+      <div class="box quarter"></div>
+      <div class="box quarter"></div>
+      <div class="box quarter"></div>
+
+      <div class="box fifth"></div>
+      <div class="box fifth"></div>
+      <div class="box fifth"></div>
+      <div class="box fifth"></div>
+      <div class="box fifth"></div>
+
+  </div>
+
+</body>
+</html>
